@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/customize.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>Configurează Instrumentul - Music Facture</title>
+    <style>
+        .instrument-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+        }
+        .instrument {
+            text-align: center;
+        }
+        .instrument img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 1px solid #8b4513;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./imagini/image.png" alt="Logo-ul Magazinului de Muzică" class="logo-image"/></a>
+            <h1 class="fancy-font">Music Facture</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Acasă</a></li>
+                <li><a href="customize.html" class="customize-link">Configurează Instrumentul</a></li>
+                <li><a href="history.html">Istorie</a></li>
+                <li><a href="team.html" class="active">Echipa</a></li>
+                <li><a href="playlist.html">Playlisturi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="customize">
+            <div class="background-image">
+                <h2 style="text-align: center; font-size: 3em;">Configurează Instrumentul Tău</h2>                
+                <p style="text-align: center;">Alege și personalizează instrumente precum chitare, viori, piane, ukulele și bas. Selectează unul dintre instrumentele de mai jos pentru a începe personalizarea:</p>
+                <div class="instrument-container">
+                    <div class="instrument">
+                        <h3>Chitară</h3>
+                        <img src="./imagini/chitara.png" alt="Chitară">
+                        <a href="#">Află mai multe și personalizează</a>
+                    </div>
+                    <div class="instrument">
+                        <h3>Bas</h3>
+                        <img src="./imagini/bas.png" alt="Bas">
+                        <a href="#">Află mai multe și personalizează</a>
+                    </div>
+                    <div class="instrument">
+                        <h3>Vioară</h3>
+                        <img src="./imagini/vioara.png" alt="Vioară">
+                        <a href="#">Află mai multe și personalizează</a>
+                    </div>
+                    <div class="instrument">
+                        <h3>Pian</h3>
+                        <img src="./imagini/pian.png" alt="Pian">
+                        <a href="#">Află mai multe și personalizează</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shop Muzical. Toate drepturile rezervate.
+            <span class="social-links" style="display: inline-flex; align-items: center; gap: 10px; margin-left: 10px;">
+                <a href="https://www.instagram.com/andu0304/" target="_blank"><img src="imagini/ig.jpeg" alt="Instagram Logo" class="social-icon" style="height: 16px; width: 16px;"/></a>
+                <a href="https://www.facebook.com/alexandrumihail.dan" target="_blank"><img src="imagini/fb.png" alt="Facebook Logo" class="social-icon" style="height: 16px; width: 16px;"/></a>
+            </span>
+        </p>
+    </footer>
+</body>
+</html>
